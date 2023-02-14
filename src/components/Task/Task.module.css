@@ -43,6 +43,7 @@
 
 .contentAndCheck p {
   font-size: 87.5%;
+  word-break: break-word;
 }
 
 .taskComplete {

@@ -12,7 +12,7 @@ export default function App() {
 
   const [tasks, setTasks] = useState<ITask[]>([]);
 
-  const tasksCompleted = tasks.filter(task => task.isActive === false).length;
+  const tasksCompleted = tasks.filter(task => !task.isActive).length;
 
   function handleNewTaskTextChange(event: ChangeEvent<HTMLInputElement>) {
     event.target.setCustomValidity('');
