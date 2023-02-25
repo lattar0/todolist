@@ -77,6 +77,7 @@
   cursor: pointer;
   transition: 0.1s;
   font-size: 87.5%;
+  border: 0;
 }
 
 .newTaskInput input:focus {
